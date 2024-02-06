@@ -11,3 +11,10 @@ margin:-21px 0px 0px 50px;
 *{
  font-family:'Times New Roman', Times, serif ;
 }
+main{
+  min-height: 80vh;
+}
+footer{
+  background-color: rgb(218, 192, 159);
+  padding:10px;
+}
