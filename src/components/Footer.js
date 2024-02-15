@@ -1,16 +1,18 @@
-import React from 'react';
-import{Row, Col,} from 'react-bootstrap';
+import React from "react";
+import {Row, Col} from 'react-bootstrap'
 
-const Footer = ()=> {
-    const currentYear = new Date().getFullYear()
+const Footer = () => {
+
+const currentYear = new Date().getFullYear()
+
     return(
-    <footer>
-         <Row className='text-center'>
-            <Col> 
-                 VTU &copy;{currentYear} 
+        <footer>
+        <Row className="text-center">
+            <Col>
+                    VTU &copy;{currentYear}
             </Col>
-         </Row>
-    </footer>
+        </Row>
+        </footer>
     )
 }
-export default Footer
+export default Footer
