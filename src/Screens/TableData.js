@@ -121,4 +121,4 @@ const TableData = ({studentId}) => {
         </Container>
     )
 }
-export default TableData;
+export default TableData;

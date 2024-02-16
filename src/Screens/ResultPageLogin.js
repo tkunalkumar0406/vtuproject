@@ -3,7 +3,7 @@ import {Link,useNavigate,useParams} from 'react-router-dom';
 import {Row,Col,Form,Button,Alert} from 'react-bootstrap';
 import axios from 'axios';
 
-const ResultLoginPage = () => {
+const ResultPageLogin = () => {
 
 const[registerInput,setRegisterInput] = useState("")
 const[error,setError] = useState("")
@@ -63,4 +63,4 @@ const submitHandler = (e) => {
         </>
     )
 }
-export default ResultLoginPage;
+export default ResultPageLogin;
